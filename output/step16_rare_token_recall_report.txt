@@ -1,0 +1,26 @@
+STEP 16 — FREQUENCY-AWARE RARE-TOKEN BLOCKING
+
+Configuration
+-------------
+MAX_TOKEN_FREQUENCY = 250
+MAX_BLOCK_SIZE = 1500
+MIN_TOKEN_LENGTH = 4
+MAX_TOKENS_PER_RECORD = 4
+
+Ground-truth true pairs:
+    7,638,365
+
+Raw candidate pairs:
+    65,091,830
+
+Recovered true pairs:
+    1,952,034
+
+BLOCKING RECALL:
+    25.5557%
+
+Blocks skipped:
+    0
+
+Total runtime:
+    468.93 seconds

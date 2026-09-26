@@ -1,0 +1,13 @@
+GROUPED ENTITY MATCHING MODEL
+============================================================
+
+ROC-AUC: 0.999841
+Precision: 0.999290
+Recall: 0.986492
+F0.5: 0.996704
+Threshold: 0.935
+Training pairs: 80,012
+Validation pairs: 19,988
+Training S1 entities: 39,612
+Validation S1 entities: 9,903
+S1 overlap: 0

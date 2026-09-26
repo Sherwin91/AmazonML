@@ -1,0 +1,26 @@
+ENTITY MATCHING MODEL
+============================================================
+
+Rows: 100,000
+ROC-AUC: 0.999878
+Precision: 0.998589
+Recall: 0.991100
+F0.5: 0.997082
+Threshold: 0.820
+
+FEATURES
+------------------------------------------------------------
+same_country
+name_exact
+name_compact_exact
+name_similarity
+name_token_similarity
+address_exact
+address_compact_exact
+address_similarity
+address_token_similarity
+address_digits_exact
+name_length_diff
+address_length_diff
+name_missing
+address_missing

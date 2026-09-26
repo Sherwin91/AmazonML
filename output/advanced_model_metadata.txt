@@ -1,0 +1,44 @@
+
+STEP 12 — ADVANCED MODEL
+
+Rows:
+  100,000
+
+Features:
+  37
+
+Training rows:
+  80,012
+
+Validation rows:
+  19,988
+
+Training S1:
+  39,612
+
+Validation S1:
+  9,903
+
+Group overlap:
+  0
+
+Grouped ROC-AUC:
+  0.99984023
+
+Best threshold:
+  0.8850
+
+Precision:
+  0.99878702
+
+Recall:
+  0.98869322
+
+F0.5:
+  0.99675181
+
+Training time:
+  1.54s
+
+Total runtime:
+  3.42s

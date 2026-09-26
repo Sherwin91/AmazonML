@@ -1,0 +1,54 @@
+REAL RAW-FEATURE MODEL
+Rows: 100000
+Features: 44
+Grouped ROC-AUC: 0.999982479
+Best threshold: 0.850000
+Precision: 0.999499098
+Recall: 0.998298979
+F0.5: 0.999258844
+
+FEATURES
+01. same_country
+02. name_exact
+03. name_compact_exact
+04. name_ratio
+05. name_token_sort
+06. name_token_set
+07. name_wratio
+08. name_partial
+09. address_exact
+10. address_compact_exact
+11. address_digits_exact
+12. address_ratio
+13. address_token_sort
+14. address_token_set
+15. address_wratio
+16. address_partial
+17. name_token_jaccard
+18. name_token_overlap
+19. address_token_jaccard
+20. address_token_overlap
+21. name_char_jaccard
+22. address_char_jaccard
+23. name_length_diff
+24. address_length_diff
+25. name_length_ratio
+26. address_length_ratio
+27. name_prefix
+28. name_suffix
+29. address_prefix
+30. address_suffix
+31. address_digit_overlap
+32. name_missing
+33. address_missing
+34. name_strong
+35. address_strong
+36. name_address_agreement
+37. combined_similarity
+38. exact_name_and_country
+39. exact_address_and_country
+40. strong_name_and_address
+41. name_address_max
+42. name_address_min
+43. is_source_s2
+44. is_source_s3

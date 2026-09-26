@@ -1,0 +1,140 @@
+STEP 22 — FREQUENCY-AWARE BLOCKING BENCHMARK
+========================================================================
+Missed pairs: 100,000
+Block limits: [100, 300, 500, 1000]
+Sort workers: 1
+Sort buffer: 128M
+
+KEY: first_name_token_3
+scanned=12527040
+written=11029592
+blocks=22915
+oversized_1000=681
+raw_candidates=37729229262
+limit=100	blocks=14410	candidates=6643193	recovered=3347	sample_recall=3.3470
+limit=300	blocks=15303	candidates=35515777	recovered=5930	sample_recall=5.9300
+limit=500	blocks=15643	candidates=83831227	recovered=8117	sample_recall=8.1170
+limit=1000	blocks=16004	candidates=272504409	recovered=12492	sample_recall=12.4920
+runtime=324.51s
+
+KEY: name_prefix_4
+scanned=12527040
+written=11799172
+blocks=206966
+oversized_1000=668
+raw_candidates=19464194044
+limit=100	blocks=105133	candidates=21931004	recovered=11580	sample_recall=11.5800
+limit=300	blocks=108209	candidates=107469890	recovered=19461	sample_recall=19.4610
+limit=500	blocks=108955	candidates=207524259	recovered=23786	sample_recall=23.7860
+limit=1000	blocks=109562	candidates=491532445	recovered=30385	sample_recall=30.3850
+runtime=332.17s
+
+KEY: name_compact_prefix_4
+scanned=12527040
+written=11799172
+blocks=206966
+oversized_1000=668
+raw_candidates=19464194044
+limit=100	blocks=105133	candidates=21931004	recovered=11580	sample_recall=11.5800
+limit=300	blocks=108209	candidates=107469890	recovered=19461	sample_recall=19.4610
+limit=500	blocks=108955	candidates=207524259	recovered=23786	sample_recall=23.7860
+limit=1000	blocks=109562	candidates=491532445	recovered=30385	sample_recall=30.3850
+runtime=342.42s
+
+KEY: name_prefix_6
+scanned=12527040
+written=11738209
+blocks=829780
+oversized_1000=325
+raw_candidates=10526801834
+limit=100	blocks=320952	candidates=43355963	recovered=26320	sample_recall=26.3200
+limit=300	blocks=324501	candidates=138381814	recovered=34812	sample_recall=34.8120
+limit=500	blocks=325092	candidates=226363436	recovered=38179	sample_recall=38.1790
+limit=1000	blocks=325483	candidates=420489627	recovered=42114	sample_recall=42.1140
+runtime=358.13s
+
+KEY: name_prefix_7
+scanned=12527040
+written=11674912
+blocks=1272855
+oversized_1000=256
+raw_candidates=7418119988
+limit=100	blocks=470059	candidates=46977423	recovered=31638	sample_recall=31.6380
+limit=300	blocks=473221	candidates=135277526	recovered=38908	sample_recall=38.9080
+limit=500	blocks=473650	candidates=201277906	recovered=41212	sample_recall=41.2120
+limit=1000	blocks=473921	candidates=341073819	recovered=44007	sample_recall=44.0070
+runtime=348.81s
+
+KEY: longest_address_token_4
+scanned=12527040
+written=12180575
+blocks=299535
+oversized_1000=706
+raw_candidates=74060507720
+limit=100	blocks=152711	candidates=21657824	recovered=14457	sample_recall=14.4570
+limit=300	blocks=155766	candidates=92667019	recovered=21010	sample_recall=21.0100
+limit=500	blocks=156638	candidates=194340528	recovered=25402	sample_recall=25.4020
+limit=1000	blocks=157367	candidates=450792552	recovered=31381	sample_recall=31.3810
+runtime=385.84s
+
+KEY: longest_address_token_5
+scanned=12527040
+written=12127222
+blocks=297425
+oversized_1000=703
+raw_candidates=74057209335
+limit=100	blocks=152268	candidates=21574465	recovered=14435	sample_recall=14.4350
+limit=300	blocks=155304	candidates=92442971	recovered=20981	sample_recall=20.9810
+limit=500	blocks=156174	candidates=193943648	recovered=25369	sample_recall=25.3690
+limit=1000	blocks=156895	candidates=448400603	recovered=31332	sample_recall=31.3320
+runtime=362.29s
+
+KEY: longest_name_token_4
+scanned=12527040
+written=11747198
+blocks=977971
+oversized_1000=485
+raw_candidates=81965623760
+limit=100	blocks=61337	candidates=20008372	recovered=9975	sample_recall=9.9750
+limit=300	blocks=62469	candidates=58469695	recovered=12636	sample_recall=12.6360
+limit=500	blocks=62820	candidates=121875130	recovered=14437	sample_recall=14.4370
+limit=1000	blocks=63356	candidates=435933024	recovered=19330	sample_recall=19.3300
+runtime=341.80s
+
+KEY: address_digits_2
+scanned=12527040
+written=11101732
+blocks=100
+oversized_1000=100
+raw_candidates=334330237711
+limit=100	blocks=0	candidates=0	recovered=0	sample_recall=0.0000
+limit=300	blocks=0	candidates=0	recovered=0	sample_recall=0.0000
+limit=500	blocks=0	candidates=0	recovered=0	sample_recall=0.0000
+limit=1000	blocks=0	candidates=0	recovered=0	sample_recall=0.0000
+runtime=319.18s
+
+KEY: name4_address4
+scanned=12527040
+written=11454703
+blocks=5960585
+oversized_1000=4
+raw_candidates=24396792
+limit=100	blocks=1874898	candidates=9723940	recovered=22373	sample_recall=22.3730
+limit=300	blocks=1875319	candidates=18910695	recovered=22735	sample_recall=22.7350
+limit=500	blocks=1875353	candidates=21918551	recovered=22782	sample_recall=22.7820
+limit=1000	blocks=1875368	candidates=24326545	recovered=22798	sample_recall=22.7980
+runtime=298.43s
+
+KEY: first_name_first_address
+scanned=12527040
+written=11482767
+blocks=4000398
+oversized_1000=28
+raw_candidates=85078366
+limit=100	blocks=1460928	candidates=21417910	recovered=25010	sample_recall=25.0100
+limit=300	blocks=1461899	candidates=47732280	recovered=26155	sample_recall=26.1550
+limit=500	blocks=1462062	candidates=62797901	recovered=26413	sample_recall=26.4130
+limit=1000	blocks=1462119	candidates=77232521	recovered=26564	sample_recall=26.5640
+runtime=298.49s
+
+TOTAL RUNTIME: 3712.37s

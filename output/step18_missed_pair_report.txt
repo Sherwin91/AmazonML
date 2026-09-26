@@ -1,0 +1,12 @@
+STEP 18 — EXACT BLOCKING RECALL ANALYSIS
+========================================================================
+
+Ground-truth true pairs: 7,638,365
+Step15 candidate pairs:  548,900,677
+Recovered true pairs:    4,403,756
+Missed true pairs:       3,234,609
+
+EXACT BLOCKING RECALL: 57.6531%
+
+Missed pairs file: /home/sherwin/PycharmProjects/Amazon Ml/student_resource/output/step18_true_missed_pairs.tsv
+Sample file: /home/sherwin/PycharmProjects/Amazon Ml/student_resource/output/step18_missed_sample.tsv

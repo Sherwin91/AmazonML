@@ -1,0 +1,24 @@
+========================================================================
+STEP 15 — BLOCKING RECALL REPORT
+========================================================================
+
+Ground-truth true pairs: 7,638,365
+Unique candidate pairs:  548,900,677
+Recovered true pairs:   4,403,756
+
+BLOCKING RECALL:         57.6531%
+
+Blocking strategies:
+
+name_norm            generated=2,040,209 skipped=0 time=130.2s
+name_compact         generated=22,742,308 skipped=0 time=112.3s
+name_tokens          generated=4,668,327 skipped=0 time=143.0s
+address_norm         generated=102,235 skipped=0 time=156.5s
+address_compact      generated=777,333 skipped=0 time=132.7s
+address_digits       generated=526,207,679 skipped=603 time=276.5s
+
+Total runtime: 2954.44 sec
+
+Candidates: /home/sherwin/PycharmProjects/Amazon Ml/student_resource/output/step15_candidates.tsv
+
+========================================================================
