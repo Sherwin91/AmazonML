@@ -1,0 +1,35 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Competition dataset
+dataset/
+
+# Large/generated output files
+output/step23_work/
+output/step22_work/
+output/step21_work/
+output/step20_work/
+output/entity_indexes.sqlite
+
+output/step15_candidates.tsv
+output/step18_true_missed_pairs.tsv
+output/step18_missed_sample.tsv
+output/step19_actual_missed_features.tsv
+output/step23_unique_candidate_pairs.tsv
+
+# Temporary/generated files
+*.log
+*.tmp
+*.temp
